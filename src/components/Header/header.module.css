@@ -1,0 +1,37 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 87px 80px 37px;
+
+    height: 174px;
+
+    background-color: var(--color-bg-secondary);
+}
+
+.logo {
+    width: 180px;
+    height: 51px;
+}
+
+.nav {
+    display: flex;
+    gap: 47px;
+}
+
+.nav__list {
+    display: flex;
+    align-items: center;
+
+    gap: 46px;
+
+    list-style: none;
+
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+}
+
+.nav__item {
+
+}
