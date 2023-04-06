@@ -1,0 +1,39 @@
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+
+    width: 260px;
+    height: 67px;
+
+    border-radius: 5px;
+
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 0;
+
+    color: var(--color-typo-tetriary);
+    background-color: var(--color-btn-main);
+}
+
+.btn img {
+    width: 34px;
+    height: 34px;
+}
+
+.btn__footer {
+    gap: 12px;
+
+    width: 179px;
+    height: 46px;
+
+    font-size: 16px;
+}
+
+.btn__footer img {
+    width: 24px;
+    height: 24px;
+}
