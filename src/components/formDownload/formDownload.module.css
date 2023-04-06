@@ -1,0 +1,35 @@
+.form {
+    margin: 85px auto;
+    padding: 50px 70px;
+    width: calc(100% - 80px * 2);
+    min-height: 165px;
+    border-radius: 10px;
+    background-color: var(--color-accent);
+}
+
+.form__field {
+    display: flex;
+    justify-content: space-between;
+
+    gap: 11px;
+
+    border: none;
+}
+
+.form__label {
+    display: flex;
+    justify-content: space-between;
+
+    gap: 122px;
+
+    width: 100%;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: var(--color-typo-tetriary);
+}
+
+.form__input {
+    width: 100%;
+}
