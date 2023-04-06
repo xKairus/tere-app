@@ -1,5 +1,5 @@
 import styles from "./../button.module.css";
-import logo from "./../../../assets/img/app-store.svg"
+import logo from "./../../../assets/img/app-store.svg";
 
 const BtnLinkApple = () => {
   return (
@@ -16,4 +16,19 @@ const BtnLinkApple = () => {
   );
 };
 
-export default BtnLinkApple;
+const BtnLinkAppleFooter = () => {
+  return (
+    <a
+      target="_blank"
+      href="https://www.apple.com/ru/shop/goto/store"
+      className={`${styles.btn} ${styles.btn__footer}`}>
+      <img
+        src={logo}
+        alt="Google Store"
+      />
+      Download
+    </a>
+  );
+};
+
+export { BtnLinkApple, BtnLinkAppleFooter };

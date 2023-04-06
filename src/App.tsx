@@ -1,15 +1,13 @@
-import BtnLinkAndroid from './components/buttons/BtnLinkAndroid/BtnLinkAndroid'
-import BtnLinkApple from './components/buttons/BtnLinkApple/BtnLinkApple'
 
-import './assets/css/index.css'
+
+import "./assets/css/index.css";
+import BtnForm from "./components/buttons/BtnForm/BtnForm";
+import BtnHelp from "./components/buttons/BtnHelp/BtnHelp";
 
 function App() {
   return (
-  <>
-    <BtnLinkAndroid />
-    <BtnLinkApple />
-  </>
-  )
+
+  );
 }
 
-export default App
+export default App;

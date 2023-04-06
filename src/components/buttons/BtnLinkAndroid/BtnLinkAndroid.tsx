@@ -16,4 +16,19 @@ const BtnLinkAndroid = () => {
   );
 };
 
-export default BtnLinkAndroid;
+const BtnLinkAndroidFooter = () => {
+  return (
+    <a
+      target="_blank"
+      href="https://www.apple.com/ru/shop/goto/store"
+      className={`${styles.btn} ${styles.btn__footer}`}>
+      <img
+        src={logo}
+        alt="Google Store"
+      />
+      Download
+    </a>
+  );
+};
+
+export { BtnLinkAndroid, BtnLinkAndroidFooter };

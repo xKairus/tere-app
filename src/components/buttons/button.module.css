@@ -7,6 +7,7 @@
     width: 260px;
     height: 67px;
 
+    border: none;
     border-radius: 5px;
 
     text-transform: uppercase;
@@ -36,4 +37,21 @@
 .btn__footer img {
     width: 24px;
     height: 24px;
+}
+
+.btn__form {
+    font-size: 22px;
+}
+
+.btn__help {
+    width: 182px;
+    height: 50px;
+
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+
+    background: var(--color-btn-secondary);
+
+    text-transform: capitalize;
 }
