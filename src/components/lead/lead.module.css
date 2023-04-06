@@ -1,0 +1,44 @@
+.lead {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+
+    width: calc(100% - 80px * 2);
+
+    gap: 100px;
+    margin: 55px auto 90px;
+}
+
+.lead__info {
+    display: flex;
+    flex-flow: column;
+
+    max-width: 550px;
+
+    gap: 25px;
+}
+
+.lead__title {
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 66px;
+}
+
+.lead__desc {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: var(--color-typo-secondary);
+}
+
+.lead__links {
+    display: flex;
+
+    gap: 30px;
+    margin-top: 45px;
+}
+
+.lead__img {
+    max-width: 550px;
+}

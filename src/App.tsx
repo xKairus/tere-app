@@ -1,12 +1,10 @@
-
+import Lead from "./components/lead/Lead";
 
 import "./assets/css/index.css";
-import BtnForm from "./components/buttons/BtnForm/BtnForm";
-import BtnHelp from "./components/buttons/BtnHelp/BtnHelp";
 
 function App() {
   return (
-
+    <Lead />
   );
 }
 
